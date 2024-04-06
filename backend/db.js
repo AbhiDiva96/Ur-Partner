@@ -7,7 +7,6 @@ Todo{
 */
 const mongoose = require("mongoose")
 const { string, boolean } = require("zod")
-//mongodb+srv://abhidiva:%401Abhimongodb@cluster0.jy41f05.mongodb.net/
 mongoose.connect("DATABASE_url")
 
 const todoSchema = mongoose.Schema({
